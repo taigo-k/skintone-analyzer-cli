@@ -46,9 +46,10 @@ Colabノートブックでコード全体を実行し、main_cli() 関数を起�
 HSB/HSV色空間における色相 (Hue: $0^\circ \sim 360^\circ$) と明度 (Value/Brightness: $0\% \sim 100\%$) の閾値に基づいています。
 
 ### 1. ベースカラー判定（イエベ/ブルベ）
-Determination,Hue Range (H)
-Warm (Yellow-Base),10∘≤H≤60∘
-Cool (Blue-Base),200∘≤H≤280∘
+| 判定 | 色相(H) |
+| :--- | :--- |
+| イエベ | $10^\circ \le H \le 60^\circ$ |
+| ブルベ | $200^\circ \le H \le 280^\circ$ |
 
 ### 2. 四季分類の基準
 | 季節 | ベース | 明度 (V) | 彩度 (S) | 特徴 |
